@@ -1,0 +1,6 @@
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\DataAccess\obj\Debug\DataAccess.pdb
