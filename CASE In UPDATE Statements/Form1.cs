@@ -42,7 +42,6 @@ namespace CASE_In_UPDATE_Statements
             MessageBox.Show("Salary increased successfully.\n" +
                     $"It took : {stopwatch.ElapsedMilliseconds} ms.", "Using C#");
         }
-
         private void btnUpdateUsingCaseStatement_Click(object sender, EventArgs e)
         {
             Stopwatch stopwatch = Stopwatch.StartNew();
@@ -59,5 +58,56 @@ namespace CASE_In_UPDATE_Statements
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
+        private float GetSalaryAVG(int TotalEmployees, float TotalSalaries)
+        {
+            if (TotalEmployees == 0)
+                return 0;
+
+            return TotalSalaries / TotalEmployees;
+        }
+        private void btnCategorizeEmployeesUsingCS_Click(object sender, EventArgs e)
+        {
+            DataTable dt = EmployeeData.GetAllEmployees();
+
+            int HighCategoryEmployees = 0;
+            int MediumCategoryEmployees = 0;
+            int LowCategoryEmployees = 0;
+
+            int HighCategorySalaries = 0;
+            int MediumCategorySalaries = 0;
+            int LowCategorySalaries = 0;
+
+            if (dt.Rows.Count > 0)
+            {
+                foreach (DataRow row in dt.Rows)
+                {
+                    int PerformanceRating = (int)row["PerformanceRating"];
+                    int Salary = (int)row["Salary"];
+
+                    if (PerformanceRating >= 80)
+                    { 
+                        HighCategoryEmployees++;
+                        HighCategorySalaries += Salary;
+                    }
+                    else if (PerformanceRating >=60)
+                    {
+                        MediumCategoryEmployees++;
+                        MediumCategorySalaries += Salary;
+                    }
+                    else
+                    {
+                        LowCategoryEmployees++;
+                        LowCategorySalaries += Salary;
+                    }
+                }
+            }
+
+            MessageBox.Show($"Category: High, Number of employees: {HighCategoryEmployees}, Salary average : {GetSalaryAVG(HighCategoryEmployees, HighCategorySalaries)}\n" +
+                $"Category: Medium, Number of employees: {MediumCategoryEmployees}, Salary average : {GetSalaryAVG(MediumCategoryEmployees, MediumCategorySalaries)}\n" +
+                $"Category: Low, Number of employees: {LowCategoryEmployees}, Salary average : {GetSalaryAVG(LowCategoryEmployees, LowCategorySalaries)}\n");
+        }
+        
     }
 }

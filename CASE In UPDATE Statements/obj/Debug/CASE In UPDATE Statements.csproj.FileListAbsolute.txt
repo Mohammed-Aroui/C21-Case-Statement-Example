@@ -11,3 +11,16 @@ C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case St
 C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\CASE In UPDATE Statements\obj\Debug\CASE In .363C7338.Up2Date
 C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\CASE In UPDATE Statements\obj\Debug\CASE In UPDATE Statements.exe
 C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\CASE In UPDATE Statements\obj\Debug\CASE In UPDATE Statements.pdb
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\bin\Debug\CASE In UPDATE Statements.exe.config
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\bin\Debug\CASE In UPDATE Statements.exe
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\bin\Debug\CASE In UPDATE Statements.pdb
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\bin\Debug\DataAccess.dll
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\bin\Debug\DataAccess.pdb
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\obj\Debug\CASE In UPDATE Statements.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\obj\Debug\CASE_In_UPDATE_Statements.Form1.resources
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\obj\Debug\CASE_In_UPDATE_Statements.Properties.Resources.resources
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\obj\Debug\CASE In UPDATE Statements.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\obj\Debug\CASE In UPDATE Statements.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\obj\Debug\CASE In .363C7338.Up2Date
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\obj\Debug\CASE In UPDATE Statements.exe
+C:\Users\hp\Desktop\Programation\21 - Database Level2 - Concepts & T-SQL\Case Statement\Case Example\CASE In UPDATE Statements\obj\Debug\CASE In UPDATE Statements.pdb

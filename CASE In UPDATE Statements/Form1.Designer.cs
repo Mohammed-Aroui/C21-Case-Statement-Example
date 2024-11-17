@@ -30,11 +30,12 @@
         {
             this.btnUpdateUsingCS = new System.Windows.Forms.Button();
             this.btnUpdateUsingCaseStatement = new System.Windows.Forms.Button();
+            this.btnCategorizeEmployeesUsingCS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnUpdateUsingCS
             // 
-            this.btnUpdateUsingCS.Location = new System.Drawing.Point(190, 96);
+            this.btnUpdateUsingCS.Location = new System.Drawing.Point(12, 79);
             this.btnUpdateUsingCS.Name = "btnUpdateUsingCS";
             this.btnUpdateUsingCS.Size = new System.Drawing.Size(298, 40);
             this.btnUpdateUsingCS.TabIndex = 0;
@@ -44,7 +45,7 @@
             // 
             // btnUpdateUsingCaseStatement
             // 
-            this.btnUpdateUsingCaseStatement.Location = new System.Drawing.Point(190, 189);
+            this.btnUpdateUsingCaseStatement.Location = new System.Drawing.Point(12, 186);
             this.btnUpdateUsingCaseStatement.Name = "btnUpdateUsingCaseStatement";
             this.btnUpdateUsingCaseStatement.Size = new System.Drawing.Size(298, 40);
             this.btnUpdateUsingCaseStatement.TabIndex = 1;
@@ -52,11 +53,22 @@
             this.btnUpdateUsingCaseStatement.UseVisualStyleBackColor = true;
             this.btnUpdateUsingCaseStatement.Click += new System.EventHandler(this.btnUpdateUsingCaseStatement_Click);
             // 
+            // btnCategorizeEmployeesUsingCS
+            // 
+            this.btnCategorizeEmployeesUsingCS.Location = new System.Drawing.Point(442, 111);
+            this.btnCategorizeEmployeesUsingCS.Name = "btnCategorizeEmployeesUsingCS";
+            this.btnCategorizeEmployeesUsingCS.Size = new System.Drawing.Size(428, 69);
+            this.btnCategorizeEmployeesUsingCS.TabIndex = 2;
+            this.btnCategorizeEmployeesUsingCS.Text = "Categorize Employees By Performance Rating\r\n(Using C#)";
+            this.btnCategorizeEmployeesUsingCS.UseVisualStyleBackColor = true;
+            this.btnCategorizeEmployeesUsingCS.Click += new System.EventHandler(this.btnCategorizeEmployeesUsingCS_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(679, 370);
+            this.ClientSize = new System.Drawing.Size(968, 278);
+            this.Controls.Add(this.btnCategorizeEmployeesUsingCS);
             this.Controls.Add(this.btnUpdateUsingCaseStatement);
             this.Controls.Add(this.btnUpdateUsingCS);
             this.Name = "Form1";
@@ -69,6 +81,7 @@
 
         private System.Windows.Forms.Button btnUpdateUsingCS;
         private System.Windows.Forms.Button btnUpdateUsingCaseStatement;
+        private System.Windows.Forms.Button btnCategorizeEmployeesUsingCS;
     }
 }
 
